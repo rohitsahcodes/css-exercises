@@ -46,3 +46,45 @@ a {
 ul {
   list-style-type: none;
 }
+
+
+/* solutions done by me */
+
+.header{
+  display: flex;
+  justify-content: space-between;
+
+}
+.logo-links{
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+
+.header .links{
+  display: flex;
+  padding: 0px;
+  align-self: flex-start;
+  justify-content: flex-start;
+  
+}
+.links li{
+  padding: 10px;
+  font-size: small;
+  align-self: flex-end;
+}
+
+
+.profile-notification{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 0.5em;
+}
+
+a{
+  background-color: rgb(228, 246, 246);
+}
+.profile-image{
+  flex-shrink: 0;
+}

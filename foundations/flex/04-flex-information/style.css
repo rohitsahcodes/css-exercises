@@ -24,3 +24,26 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* style added by Rohit */
+.title{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+  gap: 52px;
+}
+.items-info{
+  max-width: 200px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.text{
+  text-align: center;
+}
+
